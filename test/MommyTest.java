@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 public class MommyTest {
@@ -11,9 +12,7 @@ public class MommyTest {
 
     @Before
     public void setUp() throws Exception {
-
         mommy = new Mommy();
-
     }
 
     @org.junit.Test
@@ -54,5 +53,13 @@ public class MommyTest {
         actual = mommy.getResult("ae");
 
         assertThat(actual, is("mommy"));
+    }
+
+    @Test
+    public void givenAComplexCombinationShouldReturnCorrectResult() throws Exception {
+
+        actual = mommy.getResult("AHAAHHA");
+
+        assertThat(actual, is("mommyHmommyHHmommy"));
     }
 }

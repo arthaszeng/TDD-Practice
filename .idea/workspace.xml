@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0752f44d-6eaf-4d59-a4c8-1029cb6bf828" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TDD/Mommy.class" afterPath="$PROJECT_DIR$/out/production/TDD/Mommy.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VowelsEnum.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mommy.java" afterPath="$PROJECT_DIR$/src/Mommy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/MommyTest.java" afterPath="$PROJECT_DIR$/test/MommyTest.java" />
     </list>
     <ignored path="TDD.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="MommyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/MommyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -47,22 +48,12 @@
       <file leaf-file-name="Mommy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Mommy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VowelsEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VowelsEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,9 +90,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/mommyTest.java" />
-        <option value="$PROJECT_DIR$/test/MommyTest.java" />
         <option value="$PROJECT_DIR$/src/VowelsEnum.java" />
         <option value="$PROJECT_DIR$/src/Mommy.java" />
+        <option value="$PROJECT_DIR$/test/MommyTest.java" />
       </list>
     </option>
   </component>
@@ -702,44 +693,52 @@
       <workItem from="1472206873257" duration="598000" />
       <workItem from="1472226743463" duration="1205000" />
       <workItem from="1472311434515" duration="642000" />
-      <workItem from="1472375998696" duration="2391000" />
+      <workItem from="1472375998696" duration="5711000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor: add method isVowel()">
+      <created>1472379049663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1472379049664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MommyTest - 2016.08.24 at 10h 05m 06s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 34m 08s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest - 2016.08.24 at 10h 06m 53s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 34m 39s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest - 2016.08.24 at 10h 08m 10s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 35m 25s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest - 2016.08.24 at 10h 09m 19s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 35m 50s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest - 2016.08.24 at 10h 11m 55s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 36m 01s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest - 2016.08.24 at 10h 25m 31s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 36m 09s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest - 2016.08.28 at 15h 04m 42s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 37m 24s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest - 2016.08.28 at 15h 39m 05s.xml">
+    <history-entry file="MommyTest - 2016.08.28 at 16h 40m 50s.xml">
       <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest_givenTheLetterAShouldReturnMommy - 2016.08.24 at 10h 22m 50s.xml">
-      <configuration name="MommyTest.givenTheLetterAShouldReturnMommy" configurationId="JUnit" />
+    <history-entry file="MommyTest - 2016.08.28 at 16h 41m 05s.xml">
+      <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MommyTest_givenTheLetterAShouldReturnMommy - 2016.08.24 at 10h 25m 35s.xml">
-      <configuration name="MommyTest.givenTheLetterAShouldReturnMommy" configurationId="JUnit" />
+    <history-entry file="MommyTest - 2016.08.28 at 16h 41m 38s.xml">
+      <configuration name="MommyTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12986000" />
+    <option name="totallyTimeSpent" value="16306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -753,7 +752,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26496816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26496816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31082803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,6 +782,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: add method isVowel()" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: add method isVowel()" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -805,8 +808,8 @@
         <state relative-caret-position="198">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -832,8 +835,8 @@
         <state relative-caret-position="198">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -859,8 +862,8 @@
         <state relative-caret-position="198">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -875,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/MommyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -891,11 +894,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mommy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
           </folding>
         </state>
       </provider>
